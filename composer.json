@@ -1,0 +1,20 @@
+{
+    "name": "iamproperty/buan-stubs",
+    "keywords": ["PHPStorm", "stubs", "autocomplete"],
+    "authors": [{
+        "name": "James Fenwick",
+        "email": "james.fenwick@iamproperty.com"
+    }],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Buan\\": "src"
+        }
+    },
+    "scripts": {
+        "cs": "php-cs-fixer fix -v --diff --dry-run src",
+        "cs-fix": "php-cs-fixer fix -v --diff src"
+    }
+}
