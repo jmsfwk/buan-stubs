@@ -117,9 +117,9 @@ class ModelCriteria
      * @param mixed $fieldName Field name
      * @param mixed $fieldValue Field value
      * @param mixed $valueIsReference If true then $fieldValue is assumed to be a column reference rather than a literal value.
-     * @return ModelCriteriaGroup
+     * @return void
      */
-    public function addClause($clause, $fieldName, $fieldValue = null, $valueIsReference = false): ModelCriteriaGroup
+    public function addClause($clause, $fieldName, $fieldValue = null, $valueIsReference = false): void
     {
     }
 
